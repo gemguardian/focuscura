@@ -1,0 +1,19 @@
+Ref: https://docs.moodle.org/dev/PHPUnit
+
+composer install --dev
+
+php admin/tool/phpunit/cli/init.php
+
+vendor/bin/phpunit theme_focuscura_corerenderer_testcase theme/focuscura/tests/corerenderer_test.php
+
+vendor/bin/phpunit theme_focuscura_toolbox_testcase theme/focuscura/tests/toolbox_test.php
+
+vendor/bin/phpunit --group theme_focuscura
+
+or Win:
+
+vendor\bin\phpunit theme_focuscura_corerenderer_testcase theme/focuscura/tests/corerenderer_test.php
+
+vendor\bin\phpunit theme_focuscura_toolbox_testcase theme/focuscura/tests/toolbox_test.php
+
+vendor\bin\phpunit --group theme_focuscura
