@@ -23,7 +23,7 @@
 $THEME->name = 'focuscura';
 
 $THEME->yuicssmodules = array();
-$THEME->parents = array('essential');
+$THEME->parents = array('essential', 'bootstrapbase');
 
 $THEME->sheets[] = 'focuscura';
 
