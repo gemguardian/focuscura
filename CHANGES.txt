@@ -1,3 +1,8 @@
+
+3.5.1.1
+==
+05-06-2020: updated config file $THEME->parents = array('essential', 'bootstrapbase'); due to a compatablity issue with Courseformat VSF; no version bump. 
+
 New in 3.5.1.0
 ==============
 - NEW: First version.
