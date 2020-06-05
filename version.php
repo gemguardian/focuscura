@@ -24,7 +24,7 @@ defined('MOODLE_INTERNAL') || die;
 
 $plugin->version = 2020051100; // YYYYMMDDVV.
 $plugin->maturity = MATURITY_STABLE; // this version's maturity level.
-$plugin->release = '3.5.1.0 (Build: 2020051100)';
+$plugin->release = '3.5.1.1 (Build: 2020051100)';
 $plugin->requires  = 2018051700.00; // 3.5 (Build: 20180517).
 $plugin->component = 'theme_focuscura';
 $plugin->dependencies = array(
